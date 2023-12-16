@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgba(255, 255, 255, 0.813) ;
+            
+        }
+
+        .container {
+            display: flex;
+            height: 700px;
+            width: 450px;
+            margin: 100px auto;
+            /* border: 2px solid red; */
+            justify-content: center;
+            box-shadow: 10px 10px 17px 4px rebeccapurple;
+            border-radius: 8px;
+            /* align-items: center; */
+        }
+
+        .card {
+            /* border: 2px solid red; */
+            width: 100vw;
+        }
+
+        .img {
+            margin: 35px auto;
+            width: 260px;
+            height: 270px;
+            overflow: hidden;
+            border-radius: 50%;
+
+
+            border: 8px solid rgba(255, 255, 255, 0.758);
+
+        }
+
+        .dp {
+            width: 390px;
+            height: 390px;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 20px;
+            gap: 10px;
+
+        }
+
+        h3 {
+            font-family: 'Martel Sans', sans-serif;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+            width: 80%;
+            font-size: 15px;
+            text-align: center;
+            margin: 0 auto;
+
+        }
+
+        .buttonprimary {
+            display: flex;
+            flex-direction: row;
+            width: 300px;
+
+            /* border: 2px solid red; */
+            padding: 10px;
+            align-self: center;
+            gap: 25px;
+            margin: 0px auto;
+
+
+        }
+
+        button {
+            height: 53px;
+            width: 57px;
+            border: 1px solid rgba(37, 37, 37, 0.717);
+            border-radius: 50%;
+            justify-content: center;
+            align-content: center;
+            background-color: transparent;
+
+        }
+
+        .secondry-button {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 50px 0px;
+
+        }
+        .secondry-button a{
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .msg {
+            /* border: 2px solid black; */
+            padding: 10px;
+            height: 25px;
+            width: 121px;
+            text-align: center;
+            background-color: #5f6064;
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            color: white;
+            border-radius: 5px;
+
+
+        }
+        .call{
+            background-color: rgba(0, 191, 255, 0.932);
+            
+        }
+        .ord{
+            background-color: red;
+        }
+        .call:hover {
+            background-color: rgba(90, 120, 253, 0.906);
+        }
+        .ord:hover{
+            background-color: rgba(229, 0, 0, 0.963);
+        }
+        ord:active{
+            background-color: yellow;
+            color: rgb(250, 1, 1);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="img">
+                <img src="/piyu.jpg" alt="Profile pic">
+            </div>
+            <div class="text">
+                <h3>Creamy Creations</h3>
+                <p>More than just baking, I build memories, slice by slice.</p>
+            </div>
+            <div class="buttonprimary">
+                <button><a href="https://goo.gl/maps/vJfPh92G7cnTVY156" target="_blank"><img src="/Maps.png" width="50" alt=""></a></button>
+                <button><a href="https://www.instagram.com/5_creamycreations?igshid=YTQwZjQ0NmI0OA==" target="_blank"><img src="/Instagram-New-2022-Line.png" width="50" alt=""></a></button>
+                <button><a href="https://wa.me/7980996689" target="_blank"><img src="Whatsapp-Business.png" width="50" alt=""></a></button>
+                <button><a href="https://youtube.com/@creamycreations3725?si=6rXK3u6seufMuNCG" target="_blank"><img src="youtube-logo-png-2069.png" width="50" alt=""></a></button>
+            </div>
+            <div class="secondry-button">
+                <a href="tel:7980996689" class="msg call">Call us</a>
+                <a href="https://link.zomato.com/xqzv/rshare?id=377806420d1b90f2" class="msg ord">Order Now</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
